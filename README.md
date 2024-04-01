@@ -1,2 +1,11 @@
-# DataFusionContest2024_public_solution_churn
-Публичное решение соревнования Data Fusion Contest Отток. Взвешенный блендинг Custom Cox loss на python
+# Data Fusion Contest 2024
+Публичное решение задачи Отток.
+Реализация Custom Cox loss для Catboost на Cython + взвешенный блендинг с XGBoost
+
+Перед запуском ноутбука необходимо написать 
+```bash
+poetry install
+poetry build
+```
+
+### LB ~0.78

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "data_fusion_contest_2024_churn"
+version = "0.1.0"
+description = ""
+authors = ["Timofey Zheleznyakov <timofiozny@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.build]
+generate-setup-file = false
+script = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xgboost = "^2.0.3"
+ipykernel = "^6.29.4"
+catboost = "^1.2.3"
+scikit-learn = "^1.4.1.post1"
+lifelines = "^0.28.0"
+seaborn = "^0.13.2"
+tqdm = "^4.66.2"
+
+
+[tool.poetry.group.dev.dependencies]
+cython = "^3.0.10"
+
+[build-system]
+requires = ["poetry-core", "cython", "setuptools", "numpy"]
+build-backend = "poetry.masonry.api"
