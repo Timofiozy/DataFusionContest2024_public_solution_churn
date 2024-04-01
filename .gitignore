@@ -164,3 +164,5 @@ cython_debug/
 catboost_info/
 
 .DS_Store
+
+.csv
